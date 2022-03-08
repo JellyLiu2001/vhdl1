@@ -1,0 +1,26 @@
+O:/mealy/tb_pattern_recog.vhd {1 {vcom -work work -2002 -explicit -vopt O:/mealy/tb_pattern_recog.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_pattern_recog
+-- Compiling architecture behav of tb_pattern_recog
+-- Loading entity recog1
+
+} {} {}} O:/mealy/1_moore.vhd {1 {vcom -work work -2002 -explicit -vopt O:/mealy/1_moore.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity recog1
+-- Compiling architecture arch_moore of recog1
+
+} {} {}} O:/mealy/1_mealy.vhd {1 {vcom -work work -2002 -explicit -vopt O:/mealy/1_mealy.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity recog1
+-- Compiling architecture arch_mealy of recog1
+
+} {} {}}

@@ -1,0 +1,21 @@
+O:/task6.3I/tb_pattern_recog.vhd {1 {vcom -work work -2002 -explicit -vopt O:/task6.3I/tb_pattern_recog.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Compiling entity tb_recog2
+-- Compiling architecture behav of tb_recog2
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading entity recog2
+
+} {} {}} O:/task6.3I/Pattern_Recogniser_2.vhd {0 {vcom -work work -2002 -explicit -vopt O:/task6.3I/Pattern_Recogniser_2.vhd
+Model Technology ModelSim SE-64 vcom 10.1b Compiler 2012.04 Apr 26 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity recog2
+-- Compiling architecture myArch of recog2
+** Error: O:/task6.3I/Pattern_Recogniser_2.vhd(27): No feasible entries for subprogram "rising_edge".
+** Error: O:/task6.3I/Pattern_Recogniser_2.vhd(42): No feasible entries for subprogram "rising_edge".
+** Error: O:/task6.3I/Pattern_Recogniser_2.vhd(156): VHDL Compiler exiting
+
+} {8.0 11.0} {}}

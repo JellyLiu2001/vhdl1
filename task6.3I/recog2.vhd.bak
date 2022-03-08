@@ -1,0 +1,128 @@
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.All;
+
+ENTITY recog2 IS
+PORT(
+  X: in bit;
+  CLK: in bit;
+  RESET: in bit;
+  Y:out bit);
+end;
+ARCHITECTURE behav OF recog2 IS
+  TYPE state_type IS(INIT, FIRST, SECOND, THIRD, FORTH);
+  SIGNAL curState, nextState : state_type;
+  SIGNAL COUNTER0, COUNTER1 : integer:=0;
+  SIGNAL enable0, reset0 : bit;
+  SIGNAL enable1, reset1 : bit;
+BEGIN
+
+------------------------------------------------
+  
+  combi_nextState:PROCESS(curState, X)
+  BEGIN
+
+    CASE curState IS
+          
+      WHEN INIT =>
+        IF X='0' THEN
+          nextState<= FIRST;
+        ELSIF X='1' THEN
+          nextState<=INIT;
+        END IF;
+        
+        
+      WHEN FIRST =>
+        IF X='0'THEN
+          nextState<=FIRST;
+        ELSIF X='1' AND COUNTER0 < 14 THEN
+          nextState<=SECOND;
+        ELSIF X='1' AND COUNTER0 >= 14 THEN
+          nextState<=FIRST;
+        END IF;
+        
+        
+      WHEN SECOND =>
+      IF X='0'THEN
+          nextState<=FIRST;
+        ELSIF X='1' AND COUNTER1 < 16 THEN
+          nextState<=SECOND;
+        ELSIF X='1' AND COUNTER1 >= 16 THEN
+          nextState<=THIRD;
+        END IF;
+        
+        
+      WHEN THIRD =>
+        IF X='0'  THEN
+          nextState<=FIRST;
+        ELSIF X='1' THEN
+          nextState<=INIT;
+        END IF;
+    END CASE;
+  END PROCESS;
+------------------------------------------------
+  combi_out: PROCESS(curState)
+  BEGIN
+    y <= '0'; -- assign default value
+
+    IF curState <= INIT THEN--1 is ON, 0 is OFF
+      reset0<='1';
+      reset1<='1';
+      enable0<='1';
+      enable1<='0';
+
+    ELSIF curState <= FIRST THEN
+      reset0<='0';
+      reset1<='0';
+      enable0<='1';
+      enable1<='1';
+
+    ELSIF curState <= SECOND THEN
+      reset0<='0';
+      reset1<='0';
+      enable0<='0';
+      enable1<='1';
+
+    ELSIF curState <= THIRD THEN
+      reset0<='0';
+      reset1<='0';
+      enable0<='0';
+      enable1<='1';
+    END IF;
+
+  END PROCESS; -- combi_output
+
+
+  -----------------------------------------------------
+  seq_state: PROCESS (clk, reset)
+  BEGIN
+    IF reset = '0' THEN
+      curState <= INIT;
+    ELSIF clk'EVENT AND clk='1' THEN
+      curState <= nextState;
+    END IF;
+  END PROCESS; -- seq
+------------------------------------------------  
+  COUNT0: PROCESS(reset,clk) 
+  BEGIN
+    IF reset = '1' THEN -- active high reset
+      COUNTER0 <= 0;
+    ELSIF clk' EVENT and clk='1' THEN
+      IF enable0 = '1' THEN -- enable
+        COUNTER0 <= COUNTER0 + 1 ;
+      END IF;
+    END IF;
+  END PROCESS;  
+
+
+  COUNT1: PROCESS(reset,clk) 
+  BEGIN
+    IF reset = '1' THEN -- active high reset
+      COUNTER1 <= 0;
+    ELSIF clk' EVENT and clk='1' THEN
+      IF enable1 = '1' THEN -- enable
+        COUNTER1 <= COUNTER1 +1;
+      END IF;
+    END IF;
+  END PROCESS;  
+END;

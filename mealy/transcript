@@ -1,0 +1,13 @@
+vsim work.tb_pattern_recog
+# vsim work.tb_pattern_recog 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_pattern_recog(behav)#1
+# Loading work.recog1(arch_mealy)#1
+# Loading work.recog1(arch_moore)#1
+add wave -position insertpoint sim:/tb_pattern_recog/*
+add wave -position insertpoint sim:/tb_pattern_recog/t_mealy/*
+add wave -position insertpoint sim:/tb_pattern_recog/t_moore/*
+run
+# Closing project O:/mealy/work.mpf

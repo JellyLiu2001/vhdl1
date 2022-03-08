@@ -1,0 +1,137 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modelsim_dlx64_2020.4/examples
+Emux
+Z0 w1646410408
+!i122 0
+Z1 dE:/task3.3B_D
+Z2 8E:/task3.3B_D/mux.vhd
+Z3 FE:/task3.3B_D/mux.vhd
+l0
+L1 1
+V<ST4TeN8PS3L1;dTkaNe93
+!s100 2L6dhWciYXTLYmLZKE;ZE0
+Z4 OP;C;2020.4;71
+32
+Z5 !s110 1646690872
+!i10b 1
+Z6 !s108 1646690870.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/task3.3B_D/mux.vhd|
+Z8 !s107 E:/task3.3B_D/mux.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Abool
+Z11 DEx4 work 3 mux 0 22 <ST4TeN8PS3L1;dTkaNe93
+!i122 0
+l45
+L44 4
+Vd:T2WIel7ZIeGlKZ@gPHj1
+!s100 X05zDSe19K4OHImgXGORR1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Asequential
+R11
+!i122 0
+l32
+L31 11
+V6RDMV=Ec1i9ZPjcWK9Fz`2
+!s100 =g1KbW_JYD;e]oT:GZdOG2
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Agates
+R11
+!i122 0
+l23
+L21 8
+V<n^Q5e]7fD;8El2@Y=j503
+!s100 AH1N=][;03E^I=aknT30Z0
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Adataflow
+R11
+!i122 0
+l16
+L15 4
+VnE9HEAfmOl4V1^[aaCP2i3
+!s100 VA==ca1KTNQ>]QfVcMV9Y1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Etb_mux
+Z12 w1643729898
+!i122 1
+R1
+Z13 8E:/task3.3B_D/tb_mux.vhd
+Z14 FE:/task3.3B_D/tb_mux.vhd
+l0
+L2 1
+VUc6@jnke_LJUH<Yla><8z0
+!s100 `4aK`DGc8_CLR8P?zbU?21
+R4
+32
+Z15 !s110 1646690875
+!i10b 1
+Z16 !s108 1646690875.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/task3.3B_D/tb_mux.vhd|
+!s107 E:/task3.3B_D/tb_mux.vhd|
+!i113 1
+R9
+R10
+Atestmux
+R11
+DEx4 work 6 tb_mux 0 22 Uc6@jnke_LJUH<Yla><8z0
+!i122 1
+l22
+L4 39
+V5K172ff?mEC@cX4fmce]^2
+!s100 zVZYY]I_MNPHgb4=_:Jib0
+R4
+32
+R15
+!i10b 1
+R16
+R17
+Z18 !s107 E:/task3.3B_D/tb_mux.vhd|
+!i113 1
+R9
+R10

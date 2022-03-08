@@ -1,0 +1,30 @@
+E:/task6.4J/dataSampler.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/task6.4J/dataSampler.vhd
+Model Technology ModelSim DE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dataSampler
+-- Compiling architecture oneAdd_oneMult of dataSampler
+
+} {} {}} E:/task6.4J/dataSource.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/task6.4J/dataSource.vhd
+Model Technology ModelSim DE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dataSource
+-- Compiling architecture behavioural of dataSource
+
+} {} {}} E:/task6.4J/tb_dataSource.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/task6.4J/tb_dataSource.vhd
+Model Technology ModelSim DE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_dataSource
+-- Compiling architecture behav of tb_dataSource
+-- Loading entity dataSource
+-- Loading entity dataSampler
+
+} {} {}}

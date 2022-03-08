@@ -1,0 +1,142 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/task5.2G_D
+Edatasampler
+Z0 w1646414868
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 23
+Z4 dE:/task6.4J
+Z5 8E:/task6.4J/dataSampler.vhd
+Z6 FE:/task6.4J/dataSampler.vhd
+l0
+Z7 L10 1
+VYzJ8M;DKQ89aXVm`lbaJC1
+!s100 2bS0d[cK61a^4XPlgKIk01
+Z8 OP;C;2020.4;71
+32
+Z9 !s110 1646691166
+!i10b 1
+Z10 !s108 1646691164.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/task6.4J/dataSampler.vhd|
+Z12 !s107 E:/task6.4J/dataSampler.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Aoneadd_onemult
+R1
+R2
+R3
+Z15 DEx4 work 11 datasampler 0 22 YzJ8M;DKQ89aXVm`lbaJC1
+!i122 23
+l36
+L25 195
+V@`jzb5B2To=fmb5eKM]UM3
+!s100 0F8dQF^BTPfXNGEmQ6UmX1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Edatasource
+Z16 w1646335276
+R1
+R2
+R3
+!i122 24
+R4
+Z17 8E:/task6.4J/dataSource.vhd
+Z18 FE:/task6.4J/dataSource.vhd
+l0
+R7
+VA?bDM9@o0flgDKVBF4OI01
+!s100 z<8G2_icO8oaNN]V1aIk53
+R8
+32
+Z19 !s110 1646691173
+!i10b 1
+Z20 !s108 1646691168.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/task6.4J/dataSource.vhd|
+Z22 !s107 E:/task6.4J/dataSource.vhd|
+!i113 1
+R13
+R14
+Abehavioural
+R1
+R2
+R3
+Z23 DEx4 work 10 datasource 0 22 A?bDM9@o0flgDKVBF4OI01
+!i122 24
+l31
+L23 37
+V3[[:eJ8J489W5^LFjCg6X1
+!s100 :Y3;][JCzOjLiZRef9HjS1
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
+Etb_datasource
+Z24 w1646407193
+R1
+R2
+R3
+!i122 25
+R4
+Z25 8E:/task6.4J/tb_dataSource.vhd
+Z26 FE:/task6.4J/tb_dataSource.vhd
+l0
+L7 1
+VmaA]Qj9Nk:Yj<dc<aTUhL2
+!s100 [>zFLzG<8g]lRO;=aLPgA0
+R8
+32
+Z27 !s110 1646691207
+!i10b 1
+Z28 !s108 1646691207.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:/task6.4J/tb_dataSource.vhd|
+!s107 E:/task6.4J/tb_dataSource.vhd|
+!i113 1
+R13
+R14
+Abehav
+R15
+R23
+R1
+R2
+R3
+Z30 DEx4 work 13 tb_datasource 0 22 maA]Qj9Nk:Yj<dc<aTUhL2
+!i122 25
+l47
+Z31 L9 47
+Z32 V5?W`k8CU976W07AYZW`Fn3
+Z33 !s100 `DXMH9EZNIhF?EHM]Iz1^0
+R8
+32
+R27
+!i10b 1
+R28
+R29
+Z34 !s107 E:/task6.4J/tb_dataSource.vhd|
+!i113 1
+R13
+R14

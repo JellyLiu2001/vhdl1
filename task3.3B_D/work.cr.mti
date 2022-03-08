@@ -1,0 +1,20 @@
+E:/task3.3B_D/tb_mux.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/task3.3B_D/tb_mux.vhd
+Model Technology ModelSim DE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Compiling entity tb_mux
+-- Compiling architecture testMux of tb_mux
+-- Loading entity mux
+
+} {} {}} E:/task3.3B_D/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none E:/task3.3B_D/mux.vhd
+Model Technology ModelSim DE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Compiling entity mux
+-- Compiling architecture dataflow of mux
+-- Compiling architecture gates of mux
+-- Loading entity mux
+-- Compiling architecture sequential of mux
+-- Loading entity mux
+-- Compiling architecture bool of mux
+-- Loading entity mux
+
+} {} {}}

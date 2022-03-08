@@ -1,0 +1,102 @@
+m255
+K3
+13
+cModel Technology
+dO:\task6.3I
+T_opt
+VA=ONG^ENK[hBnI4_WElO73
+04 16 5 work tb_pattern_recog behav 1
+=1-e454e864777e-6227953e-21-3538
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1b;51
+Erecog1
+Z0 w1646761265
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dO:\mealy
+Z4 8O:/mealy/1_moore.vhd
+Z5 FO:/mealy/1_moore.vhd
+l0
+L4
+VHQ_@H7?D9@AM>LSYzD_^d2
+Z6 OL;C;10.1b;51
+32
+Z7 !s108 1646761273.693000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|O:/mealy/1_moore.vhd|
+Z9 !s107 O:/mealy/1_moore.vhd|
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1
+!s100 >;lbGkoRz55Db<Kf7I_9o0
+!i10b 1
+Aarch_moore
+R1
+R2
+Z12 DEx4 work 6 recog1 0 22 HQ_@H7?D9@AM>LSYzD_^d2
+l16
+L12
+VOiB:O6BjW1Z640j`lA`4E2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 33Bl=2BT23L9IU=zCCVCR0
+!i10b 1
+Aarch_mealy
+R1
+R2
+R12
+l20
+L16
+VdaWglj@5L[9156g`>EJV22
+R6
+32
+R10
+R11
+FO:/mealy/1_mealy.vhd
+w1646760941
+8O:/mealy/1_mealy.vhd
+!s100 LD3]B[nDZfM1`j;a9]USg1
+!s108 1646761273.476000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|O:/mealy/1_mealy.vhd|
+!s107 O:/mealy/1_mealy.vhd|
+!i10b 1
+Etb_pattern_recog
+Z13 w1646761050
+R1
+R2
+R3
+Z14 8O:/mealy/tb_pattern_recog.vhd
+Z15 FO:/mealy/tb_pattern_recog.vhd
+l0
+L4
+Vc;1o`0QFjF<>iSzfb=9Go2
+R6
+32
+Z16 !s108 1646761273.916000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|O:/mealy/tb_pattern_recog.vhd|
+Z18 !s107 O:/mealy/tb_pattern_recog.vhd|
+R10
+R11
+!s100 lcajf_F0c4mZ=>`X6gQf^1
+!i10b 1
+Abehav
+R12
+R1
+R2
+DEx4 work 16 tb_pattern_recog 0 22 c;1o`0QFjF<>iSzfb=9Go2
+l21
+L6
+VIz4115TDWQ9Nj@dZJF=gT3
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 f`@a0>N=g4K9^no36dGa<3
+!i10b 1
